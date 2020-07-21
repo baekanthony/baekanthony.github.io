@@ -86,9 +86,10 @@ html,body {
 }
 
 footer {
-  height: 150px;
+  height: 138px;
   background-color: #FFC7C7;
   padding-top: 1%;
+  margin: 0 0;
 }
 
 
