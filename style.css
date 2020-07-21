@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
 
 
 /*---Media Queries --*/
@@ -55,13 +55,46 @@ figure {
     padding: 1rem;
 }
 
-.carousel-item{
-  background-color: #FAD61F;
-  margin: auto;
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
-.carousel-inner{
-  margin: auto;
+#slide-area {
+  margin: 0 0;
+  padding: 0%;
+  border: 0;
+  background-color: #FAD61F;
+}
+
+.carousel-caption {
+  color: black;
+  margin-bottom: 30%;
+}
+
+#about-us {
+  background-color: #F3F3F3;
+  height: 400px;
+  padding-top: 3%;
+}
+
+#about-us-title, #about-us-text {
+  text-align: center;
+}
+
+footer {
+  height: 250px;
+  background-color: #FFC7C7;
+}
+
+
+
+.col-lg-8 {
+  margin: 0 0;
+  padding: 0%;
 }
 
 /*
