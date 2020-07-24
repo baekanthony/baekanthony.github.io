@@ -129,21 +129,76 @@ footer {
 #sheets-message {
   background-color: #FAD61F;
   color: black;
-  height: 430px;
+  height: 400px;
   padding-top: 2%;
 }
 
-.sheets-archive {
+.sheets-display {
+  background-color: #FAD61F;
+}
+
+.issue-display {
+  border-bottom: 2px solid grey;
+}
+
+#col-test {
+  background-color: #FAD61F;
+  padding:3%;
+}
+
+#inner-col {
   background-color: #F3F3F3;
+  margin: 0%;
+}
+
+#testerino {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+#blank {
+  background-color: white;
+  padding-top: 2%;
+  padding-left: 5%;
+  margin: 0%; 
+  max-width: 40%;
+}
+
+#answer {
+  background-color: white;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.outer-edge {
+  background-color: #FAD61F;
 }
 
 .sheets-issues {
-  background-color: #F3F3F3;
+  background-color: #FAD61F;
   border-bottom: 1px solid black;
 }
 
 #sheets-issues-bot {
-  background-color: #F3F3F3;
+  background-color: #FAD61F;
+}
+
+.btn-colour-1 {
+  color: #fff;
+  background-color: #ff83da;
+  border-color: #ff83da;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-left: 12%;
+}
+
+.btn-colour-1:hover,
+.btn-colour-1:active,
+.btn-colour-1:focus,
+.btn-colour-1.active {
+  background: #2c2b28;
+  color: #ffffff;
+  border-color: #2c2b28;
 }
 
 .col-lg-8 {
