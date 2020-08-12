@@ -28,7 +28,7 @@ html,body {
 /* Homepage */
 
 .main-page-img {
-  min-width: 1200px;
+  width: 1200px;
   max-height: 500px;
   object-fit: cover;
   margin: 0%;
@@ -143,14 +143,12 @@ footer {
   padding-top: 2%;
   padding-left: 5%;
   margin: 0%; 
-  //max-width: 40%;
 }
 
 #answer-sheet {
   background-color: #f1f1f1;
   padding-top: 2%;
   padding-left: 5%;
-  //max-width: 40%;
 }
 
 #sheets-issues-bot {
@@ -188,7 +186,7 @@ footer {
 }
 
 .headshot {
-  max-width: 170px;
+  width: 170px;
 }
 
 .roles {
