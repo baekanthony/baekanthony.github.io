@@ -305,6 +305,20 @@ footer {
     padding-top: 6%;
   }
 }
+@media only screen and (max-width: 619px) {
+  .team-member {
+    min-width: 100%;
+  }
+  #top-team-row {
+    height: 1000px;
+  }
+  #bot-team-row {
+    height: 650px;
+  }
+  #meet-the-team-roles {
+    height: 200px;
+  }
+}
 
 
 /* Activity sheets media query stuff */
