@@ -183,11 +183,14 @@ footer {
 .team-row {
   background-color: #F3F3F3;
   height: 350px;
+  margin: 0;
+  justify-content: center;
 }
 
 .team-member {
   padding-top: 1%;
   align-items: center;
+  max-width: 450px;
 }
 
 .headshot {
@@ -245,7 +248,7 @@ footer {
   margin-left: 0;
 }
 
-#meet-the-team-filler {
+#meet-the-team-roles {
   padding-top: 2%;
   height: 205px;
   background-color: #f3f3f3;
@@ -254,10 +257,6 @@ footer {
 .col-lg-8 {
   margin: 0 0;
   padding: 0%;
-}
-
-.team-outer-edge {
-  width: auto;
 }
 
 
@@ -294,9 +293,16 @@ footer {
 }
 
 /* Meet the Team media query stuff */
-@media only screen and (max-width: 180px) {
-  .team-outer-edge {
-    max-width: 9px;
+@media only screen and (max-width: 889px) {
+  #dean {
+    min-width: 100%;
+  }
+  #top-team-row {
+    min-height: 700px;
+  }
+  #meet-the-team-roles {
+    height: 150px;
+    padding-top: 6%;
   }
 }
 
