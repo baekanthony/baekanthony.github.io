@@ -1,3 +1,3 @@
-Website project for JitJots
+Website project for [Jit Jots](https://www.jitjots.com)
 
-Link to website: jitjots.com
+
