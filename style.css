@@ -1,6 +1,6 @@
 
 
-/*---Firefox Bug Fix --*/
+/* Firefox Bug Fix */
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -11,7 +11,7 @@
 }
 
 
-/*--- Bootstrap Padding Fix --*/
+/* Bootstrap Padding Fix */
 [class*="col-"] {
     padding: 1rem;
 }
@@ -103,65 +103,71 @@ footer {
   color: white;
 }
 
-/* Stuff for sheets.html */
+/* Activity Sheets page */
 
 #sheets-message {
   background-color: #FAD61F;
   color: black;
-  height: 400px;
-  padding-top: 2%;
+  height: 380px;
+  padding-top: 30px;
 }
 
 #maintenance-message {
   text-align: center;
 }
 
-.sheets-display {
-  background-color: #FAD61F;
+#sheets-filler{
+  height: 60px;
+  background-color: #e3e3e3;
 }
 
-.sheets-outer {
-  background-color: #E3E3E3;
+#sheets-filler-edge {
+  background-color: #e3e3e3;
 }
 
-.issue-display {
+#monthly-theme {
+  height: 100px;
+  margin: auto;
+  padding-top: 1%;
+  justify-content: center;
+  background-color: #F3F3F3;
   border-bottom: 2px solid grey;
 }
 
-#display-col {
-  background-color: #E3E3E3;
-  padding:3%;
+#sheets {
+  background-color: #e3e3e3;
+}
+
+.issue-display {
+ 
+  border-bottom: 2px solid grey;
+  margin: auto;
+  padding-left: 2%;
+  background-color: #F3F3F3;
 }
 
 .sheet-info {
-  background-color: #F3F3F3;
+  max-width: 200px;
   margin: 0%;
-}
-
-#bottom-sheet {
-  border-bottom: 0px;
-}
-
-.sheet-preview {
-  max-width: 250px;
-  max-height: 250px;
+  margin-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 1%;
 }
 
 #blank-sheet {
-  background-color: #f1f1f1;
-  padding-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   padding-left: 5%;
   margin: 0%; 
 }
 
-#answer-sheet {
-  background-color: #f1f1f1;
-  padding-top: 2%;
-  padding-left: 5%;
+.sheet-preview {
+  max-width: 300px;
+  max-height: 300px;
 }
 
-#sheets-issues-bot {
-  background-color: white;
+#bottom-sheet {
+  border-bottom: 0px;
 }
 
 .btn-colour-1 {
@@ -324,8 +330,44 @@ footer {
   }
 }
 
-
 /* Activity sheets media query stuff */
+@media only screen and (max-width: 1155px) {
+  #sheets-message {
+    padding-top: 0px;
+  }
+  .sheet-info{
+    margin-right: 0%;
+  }
+}
+@media only screen and (max-width: 1079px) {
+  #monthly-theme {
+    padding-top: 20px;
+  }
+  .sheet-preview {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  #sheets-filler {
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #monthly-theme {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 645px) {
+  #monthly-theme {
+    padding-top: 0px;
+  }
+}
+
+
+
+/*
 @media only screen and (max-width: 1904px) {
   .sheet-info {
     min-width: 200px;
