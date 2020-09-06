@@ -24,6 +24,43 @@ html,body {
     overflow-x: hidden; 
 }
 
+/* Footer */
+
+footer {
+  height: 140px;
+  background-color: #FFC7C7;
+  margin: 0%;
+  padding-top: 1%;
+}
+
+#follow {
+  background-color: #FFC7C7;
+}
+
+.fa {
+  padding-top: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 /* Homepage */
 
 .main-page-row {
@@ -67,40 +104,6 @@ html,body {
 
 #about-us-text {
   line-height: 20pt;
-}
-
-#contact-email {
-  font-weight: 500;
-}
-
-footer {
-  height: 128px;
-  background-color: #FFC7C7;
-  margin: 0 0;
-}
-
-.fa {
-  padding-top: 10px;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
 }
 
 /* Activity Sheets Page */
@@ -373,79 +376,6 @@ footer {
 }
 
 
-
-/*
-@media only screen and (max-width: 1904px) {
-  .sheet-info {
-    min-width: 200px;
-  }
-}
-@media only screen and (max-width: 1799px) {
-  .sheet-info {
-    min-width: 190px;
-  }
-  .sheet-preview {
-    margin-left: 12%;
-    margin-bottom: 5%;
-  }
-  .btn-colour-1 {
-    margin-left: 33%;
-    margin-bottom: 5%;
-  }
-}
-@media only screen and (max-width: 1518px) {
-  .sheet-preview {
-    margin-left: 4%;
-    margin-bottom: 3%;
-  }
-  .btn-colour-1 {
-    margin-left: 30%;
-    margin-bottom: 3%;
-  }
-}
-@media only screen and (max-width: 1327px) {
-  .sheet-preview {
-    padding-right: 10%;
-    margin-bottom: 3%;
-  }
-  .btn-colour-1 {
-    margin-left: 30%;
-    margin-bottom: 3%;
-  }
-}
-@media only screen and (max-width: 1286px) {
-  .sheet-preview {
-    margin-left: 0%;
-    margin-bottom: 3%;
-    max-width: 100%;
-  }
-  .btn-colour-1 {
-    margin-left: 25%;
-    margin-bottom: 3%;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .sheet-preview {
-    margin-left: 3%;
-    margin-bottom: 3%;
-    max-width: 100%;
-  }
-  .btn-colour-1 {
-    margin-left: 35%;
-    margin-bottom: 3%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .sheet-preview {
-    margin-left: 9%;
-    margin-bottom: 3%;
-    min-width: 400px;
-  }
-  .btn-colour-1 {
-    margin-left: 38%;
-    margin-bottom: 3%;
-  }
-}
 
 
 
