@@ -283,24 +283,43 @@ footer {
 }
 
 /* Workshop Page */
-
+/*
 #workshop2{
   width:100%;
 }
-
 #shop-pic{
   width: 100%;
 }
-
+*/
 #workshop {
-  background-color: #f3f3f3;
+  background-color: #FAD61F;
+  padding: 2% 15% 2% 15%;
+  margin: 0%;
 }
 
 #workshop-text {
   height: 500px;
-  width: 600px;
+  max-width: 600px;
+  margin-right: 5%;
   background-color: #FAD61F;
-  margin: 2% 5% 2% 5%;
+}
+
+#workshop-pics {
+  max-width: 900px;
+  height: 600px;
+  background-color: black;
+}
+
+.partnerships {
+  height: 400px;
+  margin: 0%;
+  padding-top: 2%;
+  background-color: #f3f3f3;
+}
+
+#logo-1 {
+  max-height: 150px;
+  margin: 3% 25% 0% 25%;
 }
 
 /* Home page media query stuff */
