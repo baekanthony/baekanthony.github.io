@@ -282,6 +282,27 @@ footer {
   margin: 0%;
 }
 
+/* Workshop Page */
+
+#workshop2{
+  width:100%;
+}
+
+#shop-pic{
+  width: 100%;
+}
+
+#workshop {
+  background-color: #f3f3f3;
+}
+
+#workshop-text {
+  height: 500px;
+  width: 600px;
+  background-color: #FAD61F;
+  margin: 2% 5% 2% 5%;
+}
+
 /* Home page media query stuff */
 @media only screen and (max-width: 1478px) {
   .carousel-caption {
