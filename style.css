@@ -288,6 +288,10 @@ footer {
   margin: 0%;
 }
 
+#workshop-title {
+  font-size: 50px;
+}
+
 #workshop-text {
   height: 500px;
   max-width: 600px;
