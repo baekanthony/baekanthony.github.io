@@ -464,38 +464,10 @@ footer {
   }
   #logo-1 {
     height: 100px;
+    margin: auto;
+    margin-top: 2%;
   }
 }
-
-/*
-#workshop {
-  background-color: #FAD61F;
-  padding: 2% 15% 2% 15%;
-  margin: 0%;
-}
-#workshop-text {
-  height: 500px;
-  max-width: 600px;
-  margin-right: 5%;
-  background-color: #FAD61F;
-}
-.workshop-pic {
-  max-width: 500px;
-}
-#workshop-pic-1 {
-  margin-bottom: 5%;
-}
-.partnerships {
-  height: 400px;
-  margin: 0%;
-  padding-top: 2%;
-  background-color: #f3f3f3;
-}
-#logo-1 {
-  max-height: 150px;
-  margin: 3% 25% 0% 25%;
-}
-*/
 
 
 
